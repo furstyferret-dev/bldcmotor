@@ -1,6 +1,6 @@
 # Brushless DC motor control
 
-This library provides a means to control the cheap three-phase brushless DC motors available from AliExpress and similar sources. They are often described as suitable for massage guns owing to their high torque. 
+This library provides a means to control the cheap three-phase brushless DC motors available from AliExpress and similar sources using an ESP32 or similar, without requiring a separate controller (which rarely regulate speed anyway). They are often described as suitable for massage guns owing to their high torque. 
 
 ![image](https://github.com/furstyferret-dev/bldcmotor/assets/56730846/5bdcd9d1-693f-4d4e-abae-f2794de49ef5)
 
