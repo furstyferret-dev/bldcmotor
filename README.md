@@ -15,11 +15,11 @@ to motor speed.
 They typically run on 6 - 24V DC and require three digital pins, in addition
 to power and ground. DO NOT REVERSE POLARITY ON THE SUPPLY.
 
-PWR: 9-24v DC (motor dependent). Higher voltage = higher speed. 
-GND: Ground (must be common with the ESP32 ground).
-PWM: 3.3-5v PWM signal. 0% is maximum speed, 100% is stopped.
-FG:  Motor dependent. Typically 5 pulses per rotation.
-F/R: Set motor direction. Changes will only become active once the motor stops.
+- PWR: 9-24v DC (motor dependent). Higher voltage = higher speed. 
+- GND: Ground (must be common with the ESP32 ground).
+- PWM: 3.3-5v PWM signal. 0% is maximum speed, 100% is stopped.
+- FG:  Motor dependent. Typically 5 pulses per rotation.
+- F/R: Set motor direction. Changes will only become active once the motor stops.
 
 ## DEPENDENCIES:
 - QuickPID library
