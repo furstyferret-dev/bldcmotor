@@ -8,9 +8,8 @@ If you want to use one, search for BL3830O, or keywords from "BL4825 Outer Rotor
 
 Although described as high speed (1000 rpm or more) I have no problem running these at between 200-500 rpm. They use almost no power and don't get hot, while being easily regulated to within 0.1 rpm.
 
-Speed is regulated by a PWM signal but they don't have intrinsic speed control,
-instead containing an internal frequency generator which pulses at a rate proportional
-to motor speed.
+Speed is regulated by a PWM signal but they don't have intrinsic speed control, instead containing an internal frequency generator which pulses at a rate proportional
+to motor speed. The pulses per revolution may need to be altered depending on your motor variant [NOT IMPLEMENTED].
 
 They typically run on 6 - 24V DC and require three digital pins, in addition
 to power and ground. DO NOT REVERSE POLARITY ON THE SUPPLY.
@@ -19,7 +18,7 @@ to power and ground. DO NOT REVERSE POLARITY ON THE SUPPLY.
 - GND: Ground (must be common with the ESP32 ground).
 - PWM: 3.3-5v PWM signal. 0% is maximum speed, 100% is stopped.
 - FG:  Motor dependent. Typically 5 pulses per rotation.
-- F/R: Set motor direction. Changes will only become active once the motor stops.
+- F/R: Set motor direction. Changes will only become active once the motor stops [NOT IMPLEMENTED]
 
 ## DEPENDENCIES:
 - QuickPID library
