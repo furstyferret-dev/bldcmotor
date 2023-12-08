@@ -4,7 +4,7 @@ This library provides a means to control the cheap three-phase brushless DC moto
 
 ![image](https://github.com/furstyferret-dev/bldcmotor/assets/56730846/5bdcd9d1-693f-4d4e-abae-f2794de49ef5)
 
-If you want to use one, search for BL3830O, or keywords from "BL4825 Outer Rotor Brushless Motor DC 12V 18V 24V 4000RPM High Speed Large Torque PWM Speed Regulation for Fascial Gun". What they don't mention is that the whole unit spins - the only stationary component is the controller board with the triangular mounting bracket, which are 21.7mm / 120 degrees apart.
+If you want to use one, search for BL3830O, or keywords from "BL4825 Outer Rotor Brushless Motor DC 12V 18V 24V 4000RPM High Speed Large Torque PWM Speed Regulation for Fascial Gun". What they don't mention is that the whole unit spins - the only stationary component is the controller board with the triangular mounting bracket, which are M4 threaded holes 21.7mm / 120 degrees apart.
 
 Although described as high speed (1000 rpm or more) I have no problem running these at between 200-500 rpm. They use almost no power and don't get hot, which being easily regulated to within 0.1 rpm.
 
